@@ -110,5 +110,57 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil modi assumenda pr
         <td>Rs 50000</td>
       </tfoot>
     </table>
+    <br>
+    <progress value="0.6" max="1.0" style="height: 20px; width: 50%;">60%</progress>
+    <progress value="0.5" max="1.0" style="height: 20px; width: 50%;">50%</progress>
+    <progress value="0.4" max="1.0" style="height: 20px; width: 50%;">40%</progress>
+    <progress value="0.3" max="1.0" style="height: 20px; width: 50%;">30%</progress>
+    <br>
+    <meter value="0.9" min="0" max="1" low="0.2" high="0.8" optimum="0.75" style="height:20px; width: 50%;">60%</meter>
+    <br>
+        <h2>Registration Form!</h2>
+        <form>
+          <label for="username">Username:</label>
+          <input type="text" placeholder="Username" id="username">
+          <br>
+          <label for="email">Email:</label>
+          <input type="email" placeholder="Email" id="email">
+          <br>
+          <label for="password">Password:</label>
+          <input type="password" placeholder="Password" id="password">
+          <br>
+          <label for="faculty">Password:</label>
+          <select id="faculty">
+            <optgroup label="Science">
+              <option value="CSIT" selected>B.Sc. CSIT</option>
+              <option>B.Sc. General</option>
+            </optgroup>
+            <optgroup label="Management">
+              <option>BBA</option>
+              <option>BBS</option>
+            </optgroup>
+          </select>
+          <br>
+          <p>Select your gender:</p>
+          <label for="male">Male</label>
+          <input type="radio" id="male" value="Male" name="gender">
+          <label for="female">Female</label>
+          <input type="radio" id="female" value="Female" name="gender">
+          <br>
+          <p>Select your interests:</p>
+          <input type="checkbox" id="interest1" name="interest" value="sports">
+          <label for="interest1">Sports</label><br>
+          
+          <input type="checkbox" id="interest2" name="interest" value="music">
+          <label for="interest2">Music</label><br>
+          
+          <input type="checkbox" id="interest3" name="interest" value="books">
+          <label for="interest3">Books</label><br>
+          
+          <input type="checkbox" id="interest4" name="interest" value="travel">
+          <label for="interest4">Travel</label>
+          <br>
+          <input type="submit">
+        </form>
   </body>
 </html>
